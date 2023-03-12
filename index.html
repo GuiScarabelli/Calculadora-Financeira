@@ -11,7 +11,14 @@
       <h1>Calculadora Financeira</h1>
       <div>
         <span class="labelTipo">Escolha o tipo da vacina</span>
-        <input type="Text" id="inp_tipoVacina">
+        <select name="select" id="inp_tipoVacina">
+          <option value="default" selected>Selecione um tipo de vacina</option>
+          <option value="BCG">BCG</option>
+          <option value="Febre amarela" >Febre amarela</option>
+          <option value="Hepatite B">Hepatite B</option>
+          <option value="Tripllice viral">Tripllice viral</option>
+        </select>
+        
       </div>
       <div>
         <span class="labelValor">Total de vacinas nos freezers:</span>
