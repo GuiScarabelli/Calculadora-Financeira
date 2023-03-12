@@ -1,0 +1,84 @@
+body {
+  background-color: #3D989B ;
+}
+
+.card {
+  background-color:#BBE5E1 ;
+  border-radius: 10px;
+  width: 500px;
+  margin: auto;
+  padding: 30px;
+  -webkit-box-shadow: 12px 11px 9px 1px rgba(15,92,96,0.7);
+  -moz-box-shadow: 12px 11px 9px 1px rgba(15,92,96,0.7);
+  box-shadow: 12px 11px 9px 1px rgba(15,92,96,0.7);
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.label {
+  text-align: center;
+}
+
+.labelQtd, .labelValor, .labelTipo {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+input, select{
+  background-color: #fcf1f1 ;
+  height: 50px;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 55px;
+}
+
+#inp_totalVac{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+#inp_tipoVacina{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+#inp_valorVac{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+
+button {
+  padding: 10px;
+  background-color: #008B91;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
