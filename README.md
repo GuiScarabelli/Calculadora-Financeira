@@ -1,3 +1,3 @@
 # Calculadora-Financeira
 
-Calculadora financeira desenvolvida para a aula de PEsquisa e inovação
+Calculadora financeira desenvolvida para a aula de Pesquisa e Inovação
