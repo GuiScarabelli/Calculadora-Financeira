@@ -12,7 +12,7 @@ function calcularPerdas(){
 
   var prejuizoMes = perdasVacina * valorVacina // vacinas perdidas * valor vacinas
 
-  var prejuizoAno = perdasVacina * 12 // vacinas perdidas * 12 (meses do ano)
+  var prejuizoAno = perdasMes * 12 // vacinas perdidas * 12 (meses do ano)
 
   // Com a VacSense
 
