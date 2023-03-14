@@ -16,7 +16,7 @@ function calcularPerdas(){
 
   // Com a VacSense
 
-  var vacinasPoupadas = perdasVacina * .70 // vacinas perdidas * 70% (porcentagem provisoria)
+  var vacinasPoupadas = perdasVacina * .75 // vacinas perdidas * 75% (porcentagem da redução de perdas com o controle adequado de temperatura e umidade)
 
   var poupadasMes = valorVacina * vacinasPoupadas; // valor vacinas * vacinas poupadas
 
